@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>Prodigy Proxy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-glow"></div>
+
+  <header>
+    <a class="logo" href="#">
+      <span class="logo-icon">✦</span>
+      <span>PRODIGY <small>PROXY</small></span>
+    </a>
+
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#apps">Apps</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <button id="themeButton" class="theme-button">☀</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="status">
+        <span class="status-dot"></span>
+        WELCOME TO PRODIGY
+      </div>
+
+      <h1>Welcome to <span>Prodigy.</span></h1>
+
+      <p class="subtitle">
+        Your internet. Your experience.
+      </p>
+
+      <div class="clock" id="clock">00:00</div>
+      <div class="date" id="date">Loading date...</div>
+
+      <form id="searchForm" class="search-box">
+        <span class="search-icon">⌕</span>
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Search or enter a website..."
+          required
+        >
+        <button type="submit">GO ↗</button>
+      </form>
+
+      <div class="search-hint">
+        Search powered by Google
+      </div>
+    </section>
+
+    <section class="apps-section" id="apps">
+      <div class="section-heading">
+        <h2>Quick access</h2>
+        <p>Your favourite websites.</p>
+      </div>
+
+      <div class="app-grid">
+        <a class="app-card" href="https://www.youtube.com">
+          <div class="app-icon youtube">▶</div>
+          <span>YouTube</span>
+          <small>Videos and entertainment</small>
+        </a>
+
+        <a class="app-card" href="https://www.google.com">
+          <div class="app-icon google">G</div>
+          <span>Google</span>
+          <small>Search anything</small>
+        </a>
+
+        <a class="app-card" href="https://www.wikipedia.org">
+          <div class="app-icon wiki">W</div>
+          <span>Wikipedia</span>
+          <small>Explore knowledge</small>
+        </a>
+
+        <a class="app-card" href="https://github.com">
+          <div class="app-icon github">⌘</div>
+          <span>GitHub</span>
+          <small>Build something great</small>
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About Prodigy</h2>
+      <p>
+        Prodigy Proxy is an independent web project
+        designed with a clean, modern experience.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span>✦ PRODIGY PROXY</span>
+    <span>Premium Edition</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
